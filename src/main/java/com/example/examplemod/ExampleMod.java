@@ -45,6 +45,8 @@ public class ExampleMod
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(NewItem.SAPPHIRE);
+            event.accept(NewItem.RAW_SAPPHIRE);
+            event.accept(NewItem.PETROS);
         }
     }
     @SubscribeEvent
