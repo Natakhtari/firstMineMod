@@ -1,5 +1,6 @@
 package com.example.examplemod;
 
+import com.example.examplemod.block.ModBlocks;
 import com.example.examplemod.newitem.NewCreativeModTabs;
 import com.example.examplemod.newitem.NewItem;
 import com.mojang.logging.LogUtils;
@@ -35,6 +36,7 @@ public class ExampleMod
 
         NewCreativeModTabs.register(modEventBus);
         NewItem.register(modEventBus);
+        ModBlocks.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

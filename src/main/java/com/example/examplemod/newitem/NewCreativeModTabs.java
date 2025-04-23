@@ -1,6 +1,7 @@
 package com.example.examplemod.newitem;
 
 import com.example.examplemod.ExampleMod;
+import com.example.examplemod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,8 @@ public class NewCreativeModTabs {
                         pOutput.accept(NewItem.RAW_SAPPHIRE.get());
                         pOutput.accept(NewItem.PETROS.get());
                         pOutput.accept(NewItem.NIGGER.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                     })
                     .build());
 

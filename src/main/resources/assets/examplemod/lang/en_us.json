@@ -3,5 +3,8 @@
   "item.examplemod.raw_sapphire": "Raw sapphire",
   "item.examplemod.petros": "Petros",
   "item.examplemod.nigga": "Nigger",
+
+  "block.examplemod.sapphire_block": "Block of Sapphire",
+  "block.examplemod.raw_sapphire_block": "Block of Raw Sapphire",
   "creativetab.example_tab" : "Example Tab"
 }
