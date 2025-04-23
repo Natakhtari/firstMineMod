@@ -20,6 +20,10 @@ public class NewItem {
     public static final RegistryObject<Item> PETROS = ITEMS.register("petros",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> NIGGER = ITEMS.register("nigga",
+            () -> new Item(new Item.Properties()));
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

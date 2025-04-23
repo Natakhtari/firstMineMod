@@ -1,4 +1,7 @@
 {
   "item.examplemod.sapphire": "Sapphire",
-  "item.examplemod.raw_sapphire": "Raw sapphire"
+  "item.examplemod.raw_sapphire": "Raw sapphire",
+  "item.examplemod.petros": "Petros",
+  "item.examplemod.nigga": "Nigger",
+  "creativetab.example_tab" : "Example Tab"
 }

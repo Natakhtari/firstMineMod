@@ -1,5 +1,6 @@
 package com.example.examplemod;
 
+import com.example.examplemod.newitem.NewCreativeModTabs;
 import com.example.examplemod.newitem.NewItem;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,6 +33,7 @@ public class ExampleMod
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
 
+        NewCreativeModTabs.register(modEventBus);
         NewItem.register(modEventBus);
     }
 
@@ -47,6 +49,7 @@ public class ExampleMod
             event.accept(NewItem.SAPPHIRE);
             event.accept(NewItem.RAW_SAPPHIRE);
             event.accept(NewItem.PETROS);
+            event.accept(NewItem.NIGGER);
         }
     }
     @SubscribeEvent
